@@ -4,7 +4,8 @@ Open WebUI is an [extensible](https://github.com/open-webui/pipelines), feature-
 
 ✒️For more information, be sure to check out our [Open WebUI Documentation](https://docs.openwebui.com/).✒️
 
-To download new [Ollama models](https://ollama.com/library), once Docker container is running, run `docker exec -it ollama ollama run {model_name}`, then refresh GUI page to see it popping in the dropdown model selection.
+To download new [Ollama models](https://ollama.com/library), go to the `admin panel` -> `settings` -> `models` page and pull the desired model.
+Otherwise, from terminal and only once Docker container is running, `docker exec -it ollama ollama run {model_name}` will work too.
 
 ![Open WebUI Demo](./demo.gif)
 
