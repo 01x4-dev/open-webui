@@ -5,7 +5,7 @@ timeout 3
 docker version
 IF %errorlevel% NEQ 0 GOTO docker_loop
 cd %homepath%\Documents\GitHub\open-webui\
-docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
+docker compose up -d
 
 :browser_loop
 timeout 3
